@@ -1,0 +1,19 @@
+<svg viewBox="0 0 962 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="962" height="260" fill="#fffdf7"/>
+
+  <text x="52" y="50" font-size="18" font-weight="bold" fill="#1a1a1a">Before: pip freeze, no lockfile</text>
+
+  <rect x="52" y="78" width="230" height="70" rx="10" fill="#fbe4dd" stroke="#d98466" stroke-width="1.5"/>
+  <text x="167" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a4328">Machine A</text>
+  <text x="167" y="126" text-anchor="middle" font-size="12" fill="#8a4328">pip freeze: v1.2</text>
+
+  <rect x="342" y="78" width="230" height="70" rx="10" fill="#fbe4dd" stroke="#d98466" stroke-width="1.5"/>
+  <text x="457" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a4328">Machine B</text>
+  <text x="457" y="126" text-anchor="middle" font-size="12" fill="#8a4328">pip freeze: v1.4</text>
+
+  <rect x="632" y="78" width="230" height="70" rx="10" fill="#fbe4dd" stroke="#d98466" stroke-width="1.5"/>
+  <text x="747" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a4328">Machine C</text>
+  <text x="747" y="126" text-anchor="middle" font-size="12" fill="#8a4328">pip freeze: v1.3</text>
+
+  <text x="457" y="186" text-anchor="middle" font-size="13" fill="#3a3a3a">Three different outputs from the same install steps</text>
+</svg>

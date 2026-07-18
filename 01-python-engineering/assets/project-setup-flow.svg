@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="420" fill="#fffdf7"/>
+
+  <rect x="40" y="30" width="320" height="40" rx="8" fill="#e6e1f7" stroke="#8f7bd1" stroke-width="1.5"/>
+  <text x="200" y="55" text-anchor="middle" font-size="13" fill="#4a3792">Create project / venv</text>
+
+  <rect x="440" y="30" width="320" height="40" rx="8" fill="#e6e1f7" stroke="#8f7bd1" stroke-width="1.5"/>
+  <text x="600" y="55" text-anchor="middle" font-size="13" fill="#4a3792">Add dependencies</text>
+
+  <line x1="360" y1="50" x2="440" y2="50" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow3)"/>
+
+  <line x1="600" y1="70" x2="600" y2="100" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow3)"/>
+
+  <rect x="440" y="100" width="320" height="40" rx="8" fill="#d9efe3" stroke="#5fa981" stroke-width="1.5"/>
+  <text x="600" y="125" text-anchor="middle" font-size="13" fill="#1f6b45">Install / resolve dependencies</text>
+
+  <line x1="600" y1="140" x2="600" y2="170" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <line x1="440" y1="120" x2="400" y2="200" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow3)"/>
+
+  <!-- Resulting folder structure -->
+  <rect x="150" y="190" width="500" height="200" rx="12" fill="#eae7de" stroke="#a89f8c" stroke-width="1.5"/>
+  <text x="400" y="215" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a4437">genai-poc/</text>
+
+  <text x="180" y="245" font-size="12" fill="#4a4437">├── pyproject.toml</text>
+  <text x="420" y="245" font-size="11" fill="#6b6152">Project + dependencies</text>
+
+  <text x="180" y="270" font-size="12" fill="#4a4437">├── poetry.lock</text>
+  <text x="420" y="270" font-size="11" fill="#6b6152">Locked dependency versions</text>
+
+  <text x="180" y="295" font-size="12" fill="#4a4437">├── .venv/</text>
+  <text x="420" y="295" font-size="11" fill="#6b6152">Virtual environment</text>
+
+  <text x="180" y="320" font-size="12" fill="#4a4437">├── genai_poc/</text>
+  <text x="420" y="320" font-size="11" fill="#6b6152">Your code</text>
+
+  <text x="180" y="345" font-size="12" fill="#4a4437">└── tests/</text>
+  <text x="420" y="345" font-size="11" fill="#6b6152">Optional test scaffold</text>
+
+  <defs>
+    <marker id="arrow3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+</svg>

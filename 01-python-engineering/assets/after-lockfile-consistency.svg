@@ -1,0 +1,31 @@
+<svg viewBox="0 0 962 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="962" height="320" fill="#fffdf7"/>
+
+  <text x="52" y="50" font-size="18" font-weight="bold" fill="#1a1a1a">After: pyproject.toml + lockfile</text>
+
+  <rect x="297" y="84" width="330" height="70" rx="10" fill="#d9efe3" stroke="#5fa981" stroke-width="1.5"/>
+  <text x="462" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f6b45">pyproject.toml + lockfile</text>
+  <text x="462" y="132" text-anchor="middle" font-size="12" fill="#1f6b45">Single source of truth</text>
+
+  <line x1="380" y1="154" x2="167" y2="232" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="462" y1="154" x2="462" y2="232" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="545" y1="154" x2="747" y2="232" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="52" y="232" width="230" height="70" rx="10" fill="#d9efe3" stroke="#5fa981" stroke-width="1.5"/>
+  <text x="167" y="260" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f6b45">Machine A</text>
+  <text x="167" y="280" text-anchor="middle" font-size="12" fill="#1f6b45">install from lock</text>
+
+  <rect x="342" y="232" width="230" height="70" rx="10" fill="#d9efe3" stroke="#5fa981" stroke-width="1.5"/>
+  <text x="457" y="260" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f6b45">Machine B</text>
+  <text x="457" y="280" text-anchor="middle" font-size="12" fill="#1f6b45">install from lock</text>
+
+  <rect x="632" y="232" width="230" height="70" rx="10" fill="#d9efe3" stroke="#5fa981" stroke-width="1.5"/>
+  <text x="747" y="260" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f6b45">Machine C</text>
+  <text x="747" y="280" text-anchor="middle" font-size="12" fill="#1f6b45">install from lock</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+</svg>
