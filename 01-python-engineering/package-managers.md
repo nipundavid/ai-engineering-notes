@@ -10,7 +10,7 @@ tags:
   - pyproject.toml
   - genai
 reading_time: 6 min
-source: LinkedIn
+source: https://www.linkedin.com/pulse/choosing-right-python-package-manager-pip-vs-poetry-uv-nipun-david-6aspc
 ---
 
 # Choosing the Right Python Package Manager: pip vs poetry vs uv - A GenAI Engineer's Guide

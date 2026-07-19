@@ -9,7 +9,7 @@ tags:
   - data-validation
   - schema-enforcement
 reading_time: 5 min
-source: LinkedIn
+source: https://www.linkedin.com/pulse/mastering-pydantic-agentic-ai-development-practical-cheat-nipun-david-9ddjc
 ---
 
 # Mastering Pydantic for Agentic AI Development – A Practical Cheat Sheet
