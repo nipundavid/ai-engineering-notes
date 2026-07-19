@@ -1,0 +1,29 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="260" fill="#fffdf7"/>
+
+  <rect x="40" y="90" width="240" height="80" rx="10" fill="#fbe4dd" stroke="#d98466" stroke-width="1.5"/>
+  <text x="160" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a4328">Raw LLM Output</text>
+  <text x="160" y="144" text-anchor="middle" font-size="12" fill="#8a4328">JSON-like dict, mixed types</text>
+
+  <line x1="280" y1="130" x2="350" y2="130" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="350" y="70" width="240" height="120" rx="10" fill="#e6e1f7" stroke="#8f7bd1" stroke-width="1.5"/>
+  <text x="470" y="102" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a3792">WeatherInfo.parse_obj</text>
+  <text x="470" y="124" text-anchor="middle" font-size="12" fill="#4a3792">Validates fields</text>
+  <text x="470" y="144" text-anchor="middle" font-size="12" fill="#4a3792">Coerces types</text>
+  <text x="470" y="164" text-anchor="middle" font-size="12" fill="#4a3792">Raises on bad data</text>
+
+  <line x1="590" y1="130" x2="660" y2="130" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="660" y="90" width="200" height="80" rx="10" fill="#d9efe3" stroke="#5fa981" stroke-width="1.5"/>
+  <text x="760" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f6b45">Structured Model</text>
+  <text x="760" y="144" text-anchor="middle" font-size="12" fill="#1f6b45">Typed, validated object</text>
+
+  <text x="450" y="220" text-anchor="middle" font-size="13" fill="#3a3a3a">location: "Paris", temperature: "21.5" → WeatherInfo(location="Paris", temperature=21.5, ...)</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+</svg>
